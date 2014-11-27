@@ -1,0 +1,6 @@
+phinx.yml
+
+vendor/
+.idea/
+composer.lock
+composer.phar
