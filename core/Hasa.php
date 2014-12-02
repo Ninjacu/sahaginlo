@@ -11,7 +11,7 @@ namespace Core;
 
 class Hasa {
 
-    public function validateLogin($userCredentials, $databaseConnection)
+    public function validateLogin(array $userCredentials, $databaseConnection)
     {
         $user = $databaseConnection->existUser($userCredentials["username"], $userCredentials["password"]);
         if($user == null) {

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="resources/login.css" type="text/css">
+    <script src="resources/jquery-2.1.1.min.js"></script>
+</head>
+<body>
+
+<form id="loginform" action="../controllers/login.php" method="post">
+    <ul>
+        <li>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required="true">
+        </li>
+        <li>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required="true">
+        </li>
+        <li>
+            <input type="submit" value="Enviar">
+        </li>
+    </ul>
+</form>
+<div id="error"></div>
+<script src="resources/script.js"></script>
+
+</body>
+</html>
